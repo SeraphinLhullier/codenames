@@ -1,0 +1,146 @@
+/*
+reponses:
+1 = bon
+2 = assassin
+3 = neutre
+*/
+.reponse_1
+{
+	background-color: green;
+}
+
+.reponse_2
+{
+	background-color: black;
+}
+
+.reponse_3
+{
+	background-color: yellow;
+}
+
+
+
+
+
+/*
+cartes:
+0 = pas essayé
+1 = bon
+2 = assassin
+3 = neutre 1
+4 = neutre 2
+5 = neutre 1,2
+*/
+.carte_0
+{
+	background-color: white;
+}
+
+.carte_1
+{
+	/*background-color: green;*/
+	background-image: url(images/temoin.jpg);
+}
+
+.carte_2
+{
+	/*background-color: black;*/
+	background-image: url(images/assassin.jpg);
+}
+
+.carte_3
+{
+	background-image: url(images/innocent_soi.jpg);
+}
+
+.carte_4
+{
+	background-image: url(images/innocent_autre.jpg);
+}
+
+.carte_5
+{
+	/*background-color: orange;*/
+	background-image: url(images/innocent_12.jpg);
+}
+
+/*
+0 = pas essayé
+1 = bon
+2 = assassin
+3 = neutre soi
+4 = neutre autre
+5 = neutre 1,2
+*/
+
+
+#plateau
+{
+	display: flex;
+}
+
+#right
+{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+
+#cartes_mots td 
+{
+	vertical-align: middle;
+	text-align: center;
+	width: 160px;
+	height: 100px;
+	background-size: cover;
+	border: solid;
+}
+
+
+.mot {
+	padding: 2px 2px 2px 2px;
+	background-color: white;
+}
+
+#reponse
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+#reponse td
+{
+	width: 30px;
+	height: 20px;
+	border: solid 1px;
+}
+
+#reponse table
+{
+	margin: 0 5px;
+	border: solid;
+}
+
+#cartes_mots a, a:visited
+{
+	text-decoration: none;
+	color: blue;
+}
+
+#chat
+{
+	padding-top: 30px;
+}
+
+#messages
+{
+	height: 20em;
+	width: 18em;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: #E1DD98;
+	overflow-wrap: break-word;
+	padding: 0 10px 0 10px;
+}

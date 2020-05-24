@@ -1,0 +1,27 @@
+reponses:
+1 = bon
+2 = assassin
+3 = neutre
+
+
+cartes (sql):
+0 = pas essayé
+1 = bon
+2 = assassin
+3 = neutre 1
+4 = neutre 2
+5 = neutre 1,2
+
+carte (php):
+0 = pas essayé
+1 = bon
+2 = assassin
+3 = neutre soi
+4 = neutre autre
+5 = neutre 1,2
+
+
+
+
+auto rafrachissement
+mettre en ligne
