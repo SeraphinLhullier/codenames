@@ -13,7 +13,7 @@ else
 {
 	try
 	{
-		$bdd = new PDO('mysql:host=localhost;dbname=codenames;charset=utf8', 'root', '');
+		$bdd = new PDO('mysql:host=eu-cdbr-west-03.cleardb.net;dbname=heroku_b23248b0c3aa0d5;charset=utf8', 'b7c134289c57fb', '2ffb6aae');
 		$bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	}
 	catch(Exception $e)
