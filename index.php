@@ -1,3 +1,3 @@
 <?php 
-header("location: codenames/acceuil.php")
+header("location: codenames/accueil.php")
 ?>
