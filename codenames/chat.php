@@ -2,7 +2,7 @@
 <?php
 try
 {
-	$bdd = new PDO('mysql:host=localhost;dbname=codenames;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+	$bdd = new PDO('mysql:host=eu-cdbr-west-03.cleardb.net;dbname=heroku_b23248b0c3aa0d5;charset=utf8', 'b7c134289c57fb', '2ffb6aae');
 }
 catch(Exception $e)
 {
